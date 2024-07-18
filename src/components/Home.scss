@@ -1,3 +1,53 @@
+.div-container{
+  margin-left: 10px;
+}
+// src/styles/Home.scss
+.simple-list-example-scrollspy {
+  position: -webkit-sticky; /* Para navegadores Webkit */
+  position: sticky;
+  top: 0; /* Fija el menú en la parte superior */
+  background: white; /* Fondo blanco para el menú */
+  z-index: 1000; /* Asegúrate de que el menú esté encima del contenido */
+  height: 100vh; /* Altura completa de la ventana para el menú */
+  padding-top: 20px; /* Espacio superior */
+}
+
+.simple-list-example-scrollspy a {
+  text-decoration: none; /* Quita el subrayado */
+  color: black; /* Color por defecto del texto */
+}
+
+.simple-list-example-scrollspy a.active {
+  color: #007bff; /* Color cuando el enlace está activo */
+  font-weight: bold; /* Negrita para el enlace activo */
+}
+
+.simple-list-example-scrollspy a:hover {
+  color: #0056b3; /* Color al pasar el cursor por encima */
+}
+
+.scrollspy-example {
+  height: 100vh; /* Altura completa de la ventana para el contenedor de scrollspy */
+  overflow-y: auto; /* Desplazamiento vertical */
+  padding: 20px; /* Espaciado interno */
+}
+
+.parrafos {
+  margin-top: 300px;
+  margin-bottom: 400px;
+}
+
+hr {
+  border: solid 1px;
+  color: black;
+  width: 80%;
+  margin-left: 30px;
+}
+
+#simple-list-example{
+  margin-top: 300px;
+}
+
 .card-container {
   display: flex; /* Utilizamos flexbox para alinear las cards en una fila */
   gap: 1rem; /* Espacio entre las cards */
@@ -16,5 +66,3 @@
 .card:hover {
   transform: scale(1.05); /* Escala ligeramente al pasar el cursor por encima */
 }
-
-  
